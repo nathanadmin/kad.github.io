@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>kad group ltd</title>
+
+    <!--font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!--custom css file link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--header section starts-->
+    <header class="header">
+        <a href="#" class="logo">kad<span>group</span> </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#contact">contacts</a>
+            <a href="#blogs" >blogs</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="info-btn" class="fas fa-info-circle"></div>
+            
+        </div>
+
+    
+
+
+    <div class="contact-info">
+
+        <div id="close-contact-info" class="fas fa-times"></div>
+
+        <div class="info">
+            <i class="fas fa-phone"></i>
+            <h3>phone number</h3>
+            <p>+250 788553095</p>
+            <p>+250 787979494</p>
+        </div>
+
+        <div class="info">
+            <i class="fas fa-envelope"></i>
+            <h3>email address</h3>
+            <p>niyonathan2003@gmail.com</p>
+            <p>kwidas01@gmail.com</p>
+        </div>
+
+        <div class="info">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>office address</h3>
+            <p>kigali-rwanda</p>
+        </div>
+
+        <div class="share">
+            <a id="facebook" target="blank"><i class="fab fa-facebook"></i></a>
+            <a id="twitter" target="blank"><i class="fab fa-twitter"></i></a>
+            <a id="telegram" target="blank"><i class="fab fa-telegram"></i></a>
+            <a id="whatsapp" target="blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+      <script>
+        const link ='https://soledicom.netlify.app/';// encodeURI(window.location.href);
+        const msg = encodeURIComponent('the best construction servises company for more information click on the link.');
+        const title = encodeURIComponent(document.querySelector('title').textContent);
+
+        console.log([link, msg, title]); 
+
+        const fb = document.querySelector('#facebook');
+        fb.href = `https://www.facebook.com/share.php?u=${link}`; 
+
+        const twitter = document.querySelector('#twitter');
+        twitter.href = `http://twitter.com/share?&url=${link}&text=${msg}&hashtags=javascript,programming`;
+
+        const telegram =document.querySelector('#telegram');
+        telegram.href = `https://t.me/share/url?&url=${link}`;
+
+        const whatsapp = document.querySelector('#whatsapp');
+        whatsapp.href = `https://wa.me/?&text=${link}`;
+      </script>
+    </header>
+
+
+
+    <!--header section ends-->
+    <!--home section start-->
+
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide slide" >
+                    <div class="content">
+                        <h3>we provide best service</h3>
+                        <p>kad group we are here to provide for you best quarity services and ready to make you satisfy</p>
+                       
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!--home section ends-->
+
+    <!--about section starts-->
+
+    <section class="about" id="about">
+        <h1 class="heading">
+            about us
+        </h1>
+
+        <div class="row">
+            <div class="video">
+                <img src="image/other11.png">
+            </div>
+            <div class="content">
+                <h3>we will provide you the best work which you dreamt for!</h3>
+                <p>kwizera architecture design group,we do what you want and in a short time,customer satisfaction is our pride</p>
+                <a href="#service" class="btn">read more</a>
+            </div>
+        </div>
+
+
+        <div class="box-container">
+            <div class="box">
+                <h3>10+</h3>
+                <p>years of experience</p>
+            </div>
+
+            <div class="box">
+                <h3>1500</h3>
+                <p>project completed</p>
+            </div>
+
+
+            <div class="box">
+                <h3>798+</h3>
+                <p>satisified clients</p>
+            </div>
+
+
+            <div class="box">
+                <h3>20+</h3>
+                <p>active workers</p>
+            </div>
+        </div>
+    </section>
+
+    <!--about section ends-->
+
+    <!--service section starts-->
+<section class="services" id="services">
+    <h1 class="heading">our services</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/service-1.png" alt="">
+            <h3>builiding contruction</h3>
+            <p>we can builid for you full builiding</p>
+        </div>
+
+
+        <div class="box">
+            <img src="image/service-2.png" alt="">
+            <h3>reinfoced concrete design</h3>
+            <p>we can builid for you full builiding</p>
+        </div>
+
+
+        <div class="box">
+            <img src="image/service-3.png" alt="">
+            <h3>architecture drawing</h3>
+            <p>we can builid for you full builiding</p>
+        </div>
+
+
+        <div class="box">
+            <img src="image/service-4.png" alt="">
+            <h3>land surveying</h3>
+            <p>we can builid for you full builiding</p>
+        </div>
+
+        <div class="box">
+            <img src="image/service-5.png" alt="">
+            <h3>expropriation</h3>
+            <p>we can builid for you full builiding</p>
+        </div>
+
+        <div class="box">
+            <img src="image/service-6.png" alt="">
+            <h3>house market</h3>
+            <p>we can builid for you full builiding</p>
+        </div>
+
+
+    </div>
+</section>
+<!--service section ends-->
+
+<!--services projects starts-->
+<section class="projects" id="projects">
+    <h1 class="heading">our projects</h1>
+    <div class="box-container">
+        <a href="image/project-1.jpg" class="box">
+            <div class="image">
+                <img src="image/project-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>view here</h3>
+                    <p>construction, built</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="image/add.jpg" class="box">
+            <div class="image">
+                <img src="image/add.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>view here</h3>
+                    <p>construction, design</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+        <a href="image/project-3.jpg" class="box">
+            <div class="image">
+                <img src="image/project-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>view here</h3>
+                    <p>construction, design</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="image/project-4.jpg" class="box">
+            <div class="image">
+                <img src="image/project-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>view here</h3>
+                    <p>construction, design</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="image/project-5.jpg" class="box">
+            <div class="image">
+                <img src="image/project-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>view here</h3>
+                    <p>construction, design</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+        <a href="image/project-6.jpg" class="box">
+            <div class="image">
+                <img src="image/project-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>view here</h3>
+                    <p>construction, design</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+
+</section>
+
+<!--services projects ends-->
+   
+
+
+
+
+    
+
+    <!--reviews section starts-->
+    <section class="reviews">
+
+
+        <h1 class="heading">client reviews</h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <p>am satisfied becouse of your servise you have give to me every time i will work with tou.
+                    </p>
+                    <div class="user">
+                        <img src="image/cal1.jpg" alt="">
+                        <div class="info">
+                            <h3>xxxxxxxxxx</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide slide">
+                    <p>am satisfied becouse of your servise you have give to me every time i will work with tou.
+                    </p>
+                    <div class="user">
+                        <img src="image/cal1.jpg" alt="">
+                        <div class="info">
+                            <h3>xxxxxxxxxxx</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide slide">
+                    <p>am satisfied becouse of your servise you have give to me every time i will work with tou.
+                    </p>
+                    <div class="user">
+                        <img src="image/cal1.jpg" alt="">
+                        <div class="info">
+                            <h3>xxxxxxxxxxx</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <p>am satisfied becouse of your servise you have give to me every time i will work with tou.
+                    </p>
+                    <div class="user">
+                        <img src="image/cal1.jpg" alt="">
+                        <div class="info">
+                            <h3>xxxxxxxxxxxx</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <p>am satisfied becouse of your servise you have give to me every time i will work with tou.
+                    </p>
+                    <div class="user">
+                        <img src="image/cal1.jpg" alt="">
+                        <div class="info">
+                            <h3>xxxxxxxxxxxxx</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>am satisfied becouse of your servise you have give to me every time i will work with tou.
+                    </p>
+                    <div class="user">
+                        <img src="image/cal1.jpg" alt="">
+                        <div class="info">
+                            <h3>xxxxxxxxxxxx</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <p>am satisfied becouse of your servise you have give to me every time i will work with tou.
+                    </p>
+                    <div class="user">
+                        <img src="image/cal1.jpg" alt="">
+                        <div class="info">
+                            <h3>xxxxxxxxxxxxx</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--reviews section ends-->
+
+
+    <!--pricing section starts-->
+
+    <section class="pricing" id="pricing">
+        <h1 class="heading">our pricing</h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-home"></i>
+                <h3>basic plan</h3>
+                <div class="price"><span>$</span>250<span>/mo</span></div>
+                <div class="list">
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                </div>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-building"></i>
+                <h3>premium plan</h3>
+                <div class="price"><span>$</span>650<span>/mo</span></div>
+                <div class="list">
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                </div>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-city"></i>
+                <h3>ulitimate plan</h3>
+                <div class="price"><span>$</span>1250<span>/mo</span></div>
+                <div class="list">
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                    <p>interior design</p>
+                </div>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+        </div>
+    </section>
+    <!--pricing section starts-->
+
+
+
+
+    <!--contact section starts-->
+
+    <section class="contact" id="contact">
+        <h1 class="heading">contact us</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865.7826605264679!2d30.060086429166237!3d-1.9394593595748917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca59b31977fcf%3A0x395495e86e3648f4!2sAUTOWINI%20Rwanda%20Agency!5e1!3m2!1sen!2sde!4v1651299018177!5m2!1sen!2sde"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            <form class="form">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="name" id="name" class="box"autocomplete="off">
+                <input type="email" placeholder="email" id="email" class="box"autocomplete="off">
+                <input type="text" placeholder="subject" id="subject" class="box" autocomplete="off">
+                <textarea name="" id="message" placeholder="message" cols="30" rows="10" class="box"></textarea>
+                <button id="btn" class="btn">send message</button>
+            </form>
+        </div>
+  
+</iframe>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+   var btn = document.getElementById('btn');
+   btn.addEventListener('click',function(e){
+    e.preventDefault()
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var subject = document.getElementById('subject').value;
+    var message = document.getElementById('message').value;
+    var body = 'name: ' +name + '<br/> email: ' +email + '<br/> subject:' +subject + '<br/> message:' +message; 
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "niyonathan12003@gmail.com",
+    Password : "C9B2C2F4960579D564348574BF0A8DA0E0E8",
+    To : 'shalomgiheke25@gmail.com',
+    From : email,
+    Subject : subject,
+    Body : body
+}).then(
+  message => alert(message)
+);
+   })
+
+</script>
+</section>
+
+    <!--contact section ends-->
+    <!--footer section starts-->
+    <section class="footer">
+       
+        <div class="credit">created by <span>niyo nathan</span> |all rights reserved! </div>
+    </section>
+    <!--footer section starts-->
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--custom js fie link-->
+    <script src="script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.projects .box-container'));
+    </script>
+
+
+</body>
+
+</html>
